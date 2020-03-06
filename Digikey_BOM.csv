@@ -1,0 +1,40 @@
+Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Reference Designator,Packaging,Part Status,Quantity,Unit Price,Extended Price,Quantity Available,Mfg Std Lead Time,Description,RoHS Status,Lead Free Status,REACH Status
+LM2940CT-5.0/NOPB,Texas Instruments,LM2940CT-5.0/NOPB-ND,,U6,Tube,Active,1,1.53,$1.53,7476,6 Weeks,IC REG LINEAR 5V 1A TO220-3,ROHS3 Compliant,Lead free,REACH Unaffected
+LM2776DBVR,Texas Instruments,296-43957-1-ND,,U15,Cut Tape (CT),Active,1,1.02,$1.02,12481,6 Weeks,IC REG CHARGE PUMP INV SOT23,ROHS3 Compliant,Lead free,REACH Unaffected
+AD7840ARSZ,Analog Devices Inc.,AD7840ARSZ-ND,,U13,Tube,Active,1,33.39,$33.39,643,8 Weeks,IC DAC 14BIT V-OUT 24SSOP,ROHS3 Compliant,Lead free,REACH Unaffected
+72V2105L10PFG,Renesas Electronics America Inc.,800-1511-ND,,U10,Tray,Active,1,131.65,$131.65,45,13 Weeks,IC FIFO SUPERSYNC 10NS 64-TQFP,ROHS3 Compliant,Lead free,REACH Unaffected
+LTC1740CG#PBF,Linear Technology/Analog Devices,LTC1740CG#PBF-ND,,U5,Tube,Active,1,41.67,$41.67,53,8 Weeks,IC ADC 14BIT PIPELINED 36SSOP,ROHS3 Compliant,Lead free,REACH Unaffected
+SN74LVC2G157DCTR,Texas Instruments,296-13266-1-ND,,U2,Cut Tape (CT),Active,3,0.48,$1.44,3725,6 Weeks,IC 2-1LINE DATA SELECT/MUX SM8,ROHS3 Compliant,Lead free,REACH Unaffected
+61C11-01-08-02,Grayhill Inc.,GH6102-ND,,SW1,Bulk,Active,1,25.77,$25.77,559,16 Weeks,ROTARY ENCODER OPTICAL 32PPR,RoHS non-compliant,Contains lead,REACH Unaffected
+PRPC002SAAN-RC,Sullins Connector Solutions,S1011EC-02-ND,Board to board,U9,Bag,Active,2,0.08,$0.16,34630,Not Available,CONN HEADER VERT 2POS 2.54MM,ROHS3 Compliant,Lead free,REACH Unaffected
+PJ-002A,CUI Devices,CP-002A-ND,,J2,Bag,Active,1,0.6,$0.60,35575,11 Weeks,CONN PWR JACK 2X5.5MM SOLDER,RoHS Compliant,Lead free,Not Available
+151033RS03000,Würth Elektronik,732-5013-ND,,D1,Bulk,Active,1,0.17,$0.17,13557,14 Weeks,LED RED CLEAR 3MM ROUND T/H,ROHS3 Compliant,Lead free,REACH Unaffected
+931,Adafruit Industries LLC,1528-1169-ND,128x32 OLED,U11,Bulk,Active,1,17.5,$17.50,357,2 Weeks,DISPL OLED GRAPH MONO 128X32 I2C,ROHS3 Compliant,Lead free,Not Available
+A000062,Arduino,1050-1049-ND,,U9,Box,Active,1,37.4,$37.40,653,Not Available,ARDUINO DUE ATSAM3X8E EVAL BRD,RoHS Compliant,Lead free,Not Available
+5-1634503-1,TE Connectivity AMP Connectors,A97581-ND,,"J1, J4, J5, J7, J8",Box,Active,5,2.25,$11.25,11968,Not Available,CONN BNC JACK STR 50 OHM PCB,RoHS Compliant,Lead free,Not Available
+TS12A12511DCNR,Texas Instruments,296-27523-1-ND,,U1,Cut Tape (CT),Active,1,1.45,$1.45,11236,6 Weeks,IC SWITCH SGL SPDT ANLG SOT23-8,ROHS3 Compliant,Lead free,REACH Unaffected
+LM4041DYM3-ADJ-TR,Microchip Technology,576-2573-1-ND,,U14,Cut Tape (CT),Active,1,0.29,$0.29,2170,4 Weeks,IC VREF SHUNT 10V 1% SOT23-3,ROHS3 Compliant,Lead free,REACH Unaffected
+TS53YL102MR10,Vishay Sfernice,TS53YL-1.0KCT-ND,,"RV1, RV3",Cut Tape (CT),Active,2,1.87,$3.74,5901,17 Weeks,TRIMMER 1K OHM 0.25W GW TOP ADJ,ROHS3 Compliant,Lead free,Not Available
+DMP3099L-7,Diodes Incorporated,DMP3099L-7DICT-ND,,Q1,Cut Tape (CT),Active,1,0.33,$0.33,183767,23 Weeks,MOSFET P-CH 30V SOT23,ROHS3 Compliant,Lead free,REACH Unaffected
+SN74LVC1G04DBVR,Texas Instruments,296-11599-1-ND,,U7,Cut Tape (CT),Active,1,0.32,$0.32,85313,6 Weeks,IC INVERTER 1CH 1-INP SOT23-5,ROHS3 Compliant,Lead free,REACH Unaffected
+SN74LVC1G08DBVR,Texas Instruments,296-11601-1-ND,,U12,Cut Tape (CT),Active,1,0.26,$0.26,97419,6 Weeks,IC GATE AND 1CH 2-INP SOT23-5,ROHS3 Compliant,Lead free,REACH Unaffected
+08055C104KAT2A,AVX Corporation,478-1395-1-ND,0u1,"C8, C9, C10, C15, C16, C22, C46,C23, C28, C30, C32, C37, C38",Cut Tape (CT),Active,20,0.083,$1.66,36630219,12 Weeks,CAP CER 0.1UF 50V X7R 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+08053C105KAT2A,AVX Corporation,478-5030-1-ND,1u,"C1, C3, C4, C6, C19, C20, C40, C41,C11, C12, C13, C14, C21, C25, C35, C39",Cut Tape (CT),Active,20,0.176,$3.52,559518,16 Weeks,CAP CER 1UF 25V X7R 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+CL21A106KAYNNNE,Samsung Electro-Mechanics,1276-2891-1-ND,10u,"C5, C7, C17, C18, C26, C27, C42, C43, C44, C45,C24, C29, C31, C33",Cut Tape (CT),Active,20,0.19,$3.80,2116302,22 Weeks,CAP CER 10UF 25V X5R 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+08055A102JAT2A,AVX Corporation,478-1328-1-ND,1n,"C2,C34, C47",Cut Tape (CT),Active,10,0.126,$1.26,303649,12 Weeks,CAP CER 1000PF 50V C0G/NP0 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-0749R9L,Yageo,311-49.9CRCT-ND,,"R1, R3, R4, R19",Cut Tape (CT),Active,4,0.1,$0.40,1707550,33 Weeks,RES SMD 49.9 OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-0722RL,Yageo,311-22.0CRCT-ND,,"R2, R6, R20",Cut Tape (CT),Active,3,0.1,$0.30,235480,33 Weeks,RES SMD 22 OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-07220RL,Yageo,311-220CRCT-ND,,R5,Cut Tape (CT),Active,1,0.1,$0.10,1267440,33 Weeks,RES SMD 220 OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-075K1L,Yageo,311-5.10KCRCT-ND,,"R7, R9, R10, R11, R13, R16, R17, R18",Cut Tape (CT),Active,10,0.04,$0.40,2672,33 Weeks,RES SMD 5.1K OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-071K1L,Yageo,311-1.10KCRCT-ND,,"R8, R14",Cut Tape (CT),Active,2,0.1,$0.20,745483,33 Weeks,RES SMD 1.1K OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-073K9L,Yageo,311-3.90KCRCT-ND,,R15,Cut Tape (CT),Active,1,0.1,$0.10,643670,33 Weeks,RES SMD 3.9K OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805FR-074K3L,Yageo,311-4.30KCRCT-ND,,R12,Cut Tape (CT),Active,1,0.1,$0.10,238177,33 Weeks,RES SMD 4.3K OHM 1% 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+LM1117IDTX-3.3/NOPB,Texas Instruments,LM1117IDTX-3.3/NOPBCT-ND,,U8,Cut Tape (CT),Active,1,1.44,$1.44,21823,6 Weeks,IC REG LINEAR 3.3V 800MA TO252-3,ROHS3 Compliant,Lead free,REACH Unaffected
+TL082CDR,Texas Instruments,296-1284-1-ND,,U16,Cut Tape (CT),Active,1,0.41,$0.41,12716,6 Weeks,IC OPAMP JFET 2 CIRCUIT 8SOIC,ROHS3 Compliant,Lead free,REACH Unaffected
+OSTTC082162,On Shore Technology Inc.,ED2615-ND,,J3,Bulk,Active,1,1.72,$1.72,1723,8 Weeks,TERM BLK 8P SIDE ENT 5.08MM PCB,ROHS3 Compliant,Lead free,REACH Unaffected
+54102-S08-18,Amphenol ICC (FCI),609-5600-ND,Board to board,U9,Bulk,Active,1,1.45,$1.45,197,9 Weeks,CONN HEADER VERT 36POS 2.54MM,RoHS non-compliant,Contains lead,Not Available
+PRPC003SAAN-RC,Sullins Connector Solutions,S1011EC-03-ND,Board to board,U9,Bag,Active,1,0.12,$0.12,11543,Not Available,CONN HEADER VERT 3POS 2.54MM,ROHS3 Compliant,Lead free,REACH Unaffected
+PRPC006SAAN-RC,Sullins Connector Solutions,S1011EC-06-ND,Board to board,U9,Bag,Active,1,0.19,$0.19,2550,Not Available,CONN HEADER VERT 6POS 2.54MM,ROHS3 Compliant,Lead free,REACH Unaffected
+LPPB042CFFN-RC,Sullins Connector Solutions,S9009E-04-ND,Board to board,U9,Tube,Active,1,1.05,$1.05,2828,5 Weeks,CONN HDR 8POS 0.05 GOLD PCB,ROHS3 Compliant,Lead free,REACH Unaffected
+RC0805JR-070RL,Yageo,311-0.0ARCT-ND,Jumpers,,Cut Tape (CT),Active,10,0.035,$0.35,11238049,24 Weeks,RES SMD 0 OHM JUMPER 1/8W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
+3296W-1-103LF,Bourns Inc.,3296W-103LF-ND,,RV2,Tube,Active,1,2.41,$2.41,4469,6 Weeks,TRIMMER 10K OHM 0.5W PC PIN TOP,ROHS3 Compliant,Lead free,REACH Unaffected
