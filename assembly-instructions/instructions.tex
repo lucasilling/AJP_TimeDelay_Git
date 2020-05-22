@@ -1,0 +1,193 @@
+\documentclass[12pt]{article}
+% \documentclass[twoside,12pt]{book}
+
+\usepackage{fontspec}
+\usepackage{titling}
+\usepackage[labelfont=bf]{caption}
+\usepackage{microtype}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{letterpaper}
+% \geometry{letterpaper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+
+\graphicspath{{figs/}}
+
+\usepackage[xetex, unicode, bookmarks, colorlinks, breaklinks, pdfusetitle]{hyperref}
+\hypersetup{linkcolor=MidnightBlue,citecolor=MidnightBlue,filecolor=black,urlcolor=MidnightBlue} % Link colors
+
+% Linux Libertine Font (default)
+\setromanfont{Linux Libertine}
+\setsansfont{Linux Biolinum}
+% \setmonofont[Scale=0.8]{Iosevka}
+
+% \usepackage{sectsty}
+% \allsectionsfont{\sffamily}
+
+\renewcommand{\today}{\ifcase\month\or%
+  January\or%
+  February\or%
+  March\or%
+  April\or%
+  May\or%
+  June\or%
+  July\or%
+  August\or%
+  September\or%
+  October\or%
+  November\or%
+  December\fi~%
+\number\year}
+
+\usepackage{lipsum}
+
+\newcommand{\kicad}{Ki\textsc{Cad}}
+
+\begin{document}
+\title{\textsc{Fifo} Delay Assembly Information}
+\author{Alex Striff}
+\date{\today}
+
+\begin{titlingpage} %This starts the title page
+    \begin{center}
+        \vfill\null%
+        \begin{Huge} 
+            \thetitle\\
+        \end{Huge}
+        \vspace{0.5cm}
+        \begin{Large}
+            \theauthor\\
+        \end{Large}
+        \vfill\null%
+        \includegraphics[width=0.625\linewidth]{fifo-p3f-img-small.png}\\
+        \vfill\null%
+        \begin{large}
+        Reed College \\
+        Physics Department\\
+        \vspace{0.5\baselineskip}
+        \thedate%
+        \end{large}
+        % \vfill\null%
+        \tableofcontents%
+    \end{center}
+\end{titlingpage}
+
+\section{Ordering \textsc{Pcb}s}
+
+Given a complete \href{https://kicad-pcb.org}{\kicad} \textsc{pcb} layout, how
+do you order the \textsc{pcb}s?
+
+\subsection{Exporting the \textsc{pcb} files from \kicad}
+
+Circuit board manufacturers expect to receive a \textsc{zip} archive that
+contains both the \emph{Gerber} files and \emph{drill} files for a circuit
+board. The latest version of the files should exist at
+\href{https://github.com/lucasilling/AJP_TimeDelay_Git/tree/master/fifo-p3f/Gerber}{\texttt{/fifo-p3f/Gerber}}
+on the \href{https://github.com/lucasilling/AJP_TimeDelay_Git}{GitHub
+repository}, but the files may be manually exported from \kicad{} as follows.
+With the \textsc{pcb} layout editor open, select \textit{File $\to$ Plot\ldots}
+to open the window of Fig.~\ref{fig:gerbers}. Choose an appropriate output
+directory and check that all of the correct layers needed for manufacture are
+selected, and then select \textit{Generate Drill Files\ldots} to open the window
+of Fig.~\ref{fig:mapdrill}. Now set the output directory to be the same as that
+for the Gerber files and select the \textit{Generate Drill File} button. You may
+also want to generate a map file as a \textsc{pdf} to visually check that the
+holes are in reasonable places. Close the drill file window and select
+\textit{Plot} in the Gerber file window to generate the Gerber files. You now
+should have a directory with several Gerber files for all of the layers and two
+drill files (corresponding to plated (\textsc{pth}) and non-plated
+(\textsc{npth}) through-holes in the board). Create a \textsc{zip} archive from
+the directory of Gerber and drill files. You are now ready to send the files to
+a manufacturer.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{gerbers}
+  \caption{Exporting Gerber files.}\label{fig:gerbers}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{mapdrill}
+  \caption{Exporting drill and map files.}\label{fig:mapdrill}
+\end{figure}
+
+\subsection{Sending the files to a manufacturer}
+
+There are many prototyping \textsc{pcb} fabrication houses
+available,\footnote{To compare prices for given \textsc{pcb} feature sets, see
+\url{pcbshopper.com}.} but the one I have used previously is one of the largest,
+cheapest, and most popular: \href{https://jlcpcb.com}{\textsc{JlcPcb}}. It is
+straightforward to fill out the forms on these order websites, but be sure to
+check that their manufacturing tolerances are below what you
+request.\footnote{Our board is easily manufacturable by most fabrication
+houses.} The turnaround time for these services varies, but is usually quite
+fast: about one week or less with \textsc{dhl} shipping.
+
+\section{Ordering Parts}
+
+A complete
+\href{https://github.com/lucasilling/AJP_TimeDelay_Git/blob/master/Digikey_BOM.csv}{bill
+of materials} (\textsc{bom}) is given on the
+\href{https://github.com/lucasilling/AJP_TimeDelay_Git}{GitHub repository}. To
+order the parts, one may simply upload the \textsc{bom} file to
+\href{https://www.digikey.com/bom}{Digi-Key} (Fig.~\ref{fig:digikey-bom}). The
+relevant entries are reproduced in Table~\ref{tab:bom}. This is useful as a
+checklist as you solder parts on to the board.
+
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=\linewidth]{digikey-bom}
+  \caption{The Digi-Key \textsc{bom} manager.}\label{fig:digikey-bom}
+\end{figure}
+
+\newgeometry{margin=1in}
+\begin{landscape}
+\begin{table}[ht]
+\caption{Bill of materials. Quantities are sometimes rounded up to a multiple of
+ten for price breaks.}\label{tab:bom}
+\scriptsize
+\input{bom.tex}
+\end{table}
+\end{landscape}
+\restoregeometry%
+
+\section{Assembly and Soldering}
+
+Once you have received both parts and boards, you face the task of soldering
+them together. If you are unfamiliar with soldering, there are plenty of
+resources online, and even surface-mount soldering is easier than it
+looks.\footnote{For example,
+  \href{https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools}{Adafruit}
+covers the basics of through-hole soldering.}
+Soldering small \textsc{ic}s with pin pitches of \SI{650}{\um} is simple because
+\emph{you} are not doing the fine placement: the surface tension of the solder
+is. For that to work, you must be able to control the quantity of solder and
+have appropriately prepared surfaces. This is achieved by:
+\begin{itemize}
+  \item Having good leaded solder with a \emph{small} diameter (less than the
+    usual \SI{31}{thou}).
+  \item Frequently using a source of flux, such as a flux pen or paste.
+\end{itemize}
+Mistakes are easily remedied with some solder wick. There is also the
+possibility of getting a solder paste stencil with your \textsc{pcb} order and
+reflow-soldering the whole board at once.
+
+It is usually a good idea to solder the power supply components first and then
+stop to check that the test points give the correct voltages when powered on.
+This prevents damage to critical parts like the Arduino or \textsc{fifo} in the
+case of an error. Manual continuity checks for densely-packed pins are also a
+good idea.
+
+% \begin{landscape}
+\includepdf[landscape]{../fifo-p3f/FIFO_P.pdf}
+% \end{landscape}
+
+\end{document}
