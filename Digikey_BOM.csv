@@ -9,7 +9,7 @@ SN74LVC2G157DCTR,Texas Instruments,296-13266-1-ND,,U2,Cut Tape (CT),Active,3,0.4
 PRPC002SAAN-RC,Sullins Connector Solutions,S1011EC-02-ND,Board to board,U9,Bag,Active,2,0.08,$0.16,34630,Not Available,CONN HEADER VERT 2POS 2.54MM,ROHS3 Compliant,Lead free,REACH Unaffected
 PJ-002A,CUI Devices,CP-002A-ND,,J2,Bag,Active,1,0.6,$0.60,35575,11 Weeks,CONN PWR JACK 2X5.5MM SOLDER,RoHS Compliant,Lead free,Not Available
 151033RS03000,Würth Elektronik,732-5013-ND,,D1,Bulk,Active,1,0.17,$0.17,13557,14 Weeks,LED RED CLEAR 3MM ROUND T/H,ROHS3 Compliant,Lead free,REACH Unaffected
-931,Adafruit Industries LLC,1528-1169-ND,128x32 OLED,U11,Bulk,Active,1,17.5,$17.50,357,2 Weeks,DISPL OLED GRAPH MONO 128X32 I2C,ROHS3 Compliant,Lead free,Not Available
+4440,Adafruit Industries LLC,1528-4440-ND,128x32 OLED,U11,Bulk,Active,1,12.5,$12.50,1010,Not Available,I2C OLED DISPLAY STEMMA QWIIC,ROHS3 Compliant,Not Available,Not Available
 A000062,Arduino,1050-1049-ND,,U9,Box,Active,1,37.4,$37.40,653,Not Available,ARDUINO DUE ATSAM3X8E EVAL BRD,RoHS Compliant,Lead free,Not Available
 5-1634503-1,TE Connectivity AMP Connectors,A97581-ND,,"J1, J4, J5, J7, J8",Box,Active,5,2.25,$11.25,11968,Not Available,CONN BNC JACK STR 50 OHM PCB,RoHS Compliant,Lead free,Not Available
 TS12A12511DCNR,Texas Instruments,296-27523-1-ND,,U1,Cut Tape (CT),Active,1,1.45,$1.45,11236,6 Weeks,IC SWITCH SGL SPDT ANLG SOT23-8,ROHS3 Compliant,Lead free,REACH Unaffected
